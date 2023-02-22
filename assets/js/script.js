@@ -155,9 +155,9 @@ if (submitButton) {
 
 
 // If the highscores page open, show the high score
-if (window.location.pathname === "/highscores.html") {
-    showHighScores();
-}
+// if (window.location.pathname === "/highscores.html") {
+//     showHighScores();
+// }
 
 // Only add listener if the button exists
 if (resetButton) {
