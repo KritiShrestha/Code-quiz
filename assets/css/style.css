@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#quiz-template, #highScore-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 70%;
+    border-style: ridge;
+    border-width: 4px;
+    padding: 13px;
+    border-color: #9da6c1;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#header-container {
+    height: 35px;
+}
+
+#start-button {
+    font-size: 1.5rem;
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#final-score {
+    margin-top: -28px;
+    margin-left: 19vh;
+    color: #81c;
+    font-weight: bolder;
+}
+
+.time-container {
+    float: right;
+    margin-top: -18px;
+}
+
+#quiz-container {
+    display: none;
+    padding: 3rem;
+    height: 50vh;
+    padding-left: 15%;
+}
+
+#response-container {
+    height: 6vh;
+    padding-left: 15%;
+    margin-top: -10%;
+}
+
+#high-scores {
+    font-size: 21px;
+    color: darkorchid;
+    font-weight: bolder;
+    float: left;
+}
+
+.heading1,
+p {
+    text-align: center;
+    ;
+}
+
+p {
+    font-size: 25px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    width: 20%;
+}
+
+#highscore-options {
+    display: inline-flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 12px;
+}
+
+.button-style {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: royalblue;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: rgb(115, 145, 236);
+}
+
+
+#question {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+#scorecontainer, #scoreList-container {
+    display: none;
+    padding: 3rem;
+    height: 50vh;
+    padding-left: 15%;
+}
+
+#scoreList-container {
+    display: block;
+}
+
+#response {
+    font-style: italic;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#scoreList {
+    font-size: 20px;
+  }
