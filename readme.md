@@ -21,11 +21,10 @@ A website for student to take a timed quiz on javascript and store a high scores
 
 ## Usage
 For the students want to take a timed quiz on javascript and store a high scores, and compare the scores with their colleague.
-![Image is the screenshot of homepage of code-quiz](./develop/assets/images/code-quiz)
+![Image is the screenshot of homepage of code-quiz](./assets/images/code-quiz.png)
 
 ## Application
-Here's the link to the deployed application - https://kritishrestha.github.io/code-quiz.
-
+Here's the link to the deployed application - https://kritishrestha.github.io/Code-quiz.
 
 ## License
 MIT
